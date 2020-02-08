@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task manager</title>
+    <style>
+    ol  {
+         margin:0vh,50vh,0vh,50vh;
+         background-color:rgb(15, 235, 85);
+         
+    }
+    header{
+        font-size:40px;
+        background-color:white;
+    }
+    article{
+        background-color:greenyellow;
+        
+        max-height:90vh;
+        margin:10vh 20vh 20vh 20vh;
+        padding:40px;
+        
+        border-radius:10px;
+        
+    }
+    ol li{
+        margin;2px;
+    }
+    button{
+        width:150px;
+        border-radius:60px;
+        background-color: black;
+        color:wheat; 
+    }
+    body{height:100vh;
+        background-image:linear-gradient(white,grey);
+        background-repeat:no-repeat;
+    }
+    label{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin:4px;
+        font-weight:bold;
+        color:rgb(6, 19, 106);
+    }
+    input{
+        width:100px;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1 align="center">Task Manager</h1>
+    </header>
+    <article align="center">
+        <forum>
+        <label >Task</label><input type="text" id="txt" required/>
+        
+       <label>Time</label> <input type="time" id="ye"/>
+    <br/> <br/>   <button id="butn"  onclick="uty()">ADD</button>
+    </forum>
+    
+    <div class="tasks">
+        <ol id="add" align="center">
+            
+        </ol>
+    </div></article>
+
+    <script src="taskmanager.js"></script>
+</body>
+</html>
